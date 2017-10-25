@@ -36,7 +36,7 @@
                     <div class="logo"><a href="{{url('/')}}"><img src="{{asset('images/logo.jpg')}}" alt="Bristol" title="Bristol"></a></div>
                 </div>
 
-                <div class="nav-outer pull-right clearfix">
+                <div class="nav-outer  pull-right clearfix" id="mike">
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <div class="navbar-header">
@@ -54,7 +54,7 @@
 
                                 </li>
                                 <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="About Us" href="{{url('about-us')}}" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">About Us</a></li>
-                                <li id="menu-item-180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180 dropdown"><a title="Services" href="{{url('services')}}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
+                                <li id="menu-item-180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180 "><a title="Services" href="{{url('services')}}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
 
                                 </li>
                                 {{--<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-215 dropdown"><a title="Gallery" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Gallery</a>--}}

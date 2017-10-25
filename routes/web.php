@@ -15,13 +15,13 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('about-us', function () {
-    return view('index');
+    return view('about-us');
 });Route::get('services', function () {
-    return view('index');
+    return view('services');
 });
 Route::get('contact-us', function () {
-    return view('index');
+    return view('contact-us');
 });
 Route::get('gallery', function () {
-    return view('index');
+    return view('gallery');
 });
